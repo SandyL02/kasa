@@ -3,5 +3,13 @@
     flex-wrap: wrap;
     background-color: #F6F6F6;
     padding: 1%;
-    margin: 4% 0%
+    margin: 4% 0%;
+}
+
+@media screen and (max-width :768px) {
+ .cards {
+    background-color: white;
+    flex-direction: column;
+ }
+
 }

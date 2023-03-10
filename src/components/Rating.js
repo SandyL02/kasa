@@ -12,7 +12,7 @@ const Rating = ({ rating }) => {
     }
   
     return (
-      <div>
+      <div className="stars">
         {stars}
       </div>
     );

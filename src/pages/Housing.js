@@ -1,4 +1,5 @@
 import React from 'react';
+import { Navigate } from 'react-router-dom';
 import Slideshow from '../components/Slideshow';
 import Rating from '../components/Rating';
 import Collapse from '../components/Collapse';
@@ -7,6 +8,10 @@ import Collapse from '../components/Collapse';
 export default function Housing(props) {
    
     const { item } = props;
+
+    if (!item || !item.id) {
+        return <Navigate to="/not-found" replace={true} />;
+      }
     
     return(
         <div className="housing">
@@ -21,7 +26,7 @@ export default function Housing(props) {
                     ))}
                     </ul>
                 </div>
-                <div>
+                <div className='housing-host-rating'>
                     <div className='housing-host'>
                         <h4>{ item.host.name }</h4>
                         <img src={ item.host.picture } alt={ item.host.name } className="host-img"></img>

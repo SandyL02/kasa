@@ -2,6 +2,11 @@ body {
     width: calc(100% - 10em);
     margin:auto;
     padding-top: 40px;
-    
- 
 }
+
+@media screen and (max-width :768px) {
+    body {
+    width: 94%;
+    }
+   
+   }

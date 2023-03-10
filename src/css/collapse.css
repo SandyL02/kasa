@@ -35,5 +35,13 @@
     width: 48%;
     margin-bottom: 3%;
 }
-  
 
+@media screen and (max-width :768px) {
+  
+    .collapse-about {
+        width: 100%;
+    }
+    .collapse-housing{
+        width: 100%;
+    }
+}
