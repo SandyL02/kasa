@@ -1,0 +1,35 @@
+.banner {
+    border-radius: 25px;
+    text-align: center;
+    height: 223px;
+    background-size: 100%;
+    line-height:223px;
+    background-position: center;
+    margin: 48px 0;
+}
+
+.banner-home {
+    background-image: url("../images/home_banner.jpg");
+}
+
+.banner-about {
+    background-image: url("../images/about_banner.jpg");
+}
+
+.filter {
+    background-color:rgba(0,0,0,0.3);
+    width:100%;
+    height:223px;
+    position:absolute;
+    z-index:1;
+    border-radius: 25px;
+    width: calc(100% - 10em);
+}
+
+.text-banner {
+    position:relative;
+    z-index:2;
+    color: white;
+    font-size: 48px;
+    margin:0;
+}
