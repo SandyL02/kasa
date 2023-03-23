@@ -1,0 +1,15 @@
+@media screen and (max-width: 1030px) {
+    .collapse-about {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .collapse-title h2 {
+        font-size: 20px;
+    }
+
+    .collapse-text p {
+        font-size:18px ;
+    }
+}

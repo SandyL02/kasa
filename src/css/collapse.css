@@ -17,10 +17,11 @@
     background-color: #F6F6F6;
     font-size: 24px;
     font-weight: 400;
+    border-radius: 10px;
 }
 
 .collapse-text p {
-    margin:0;
+    margin: 0;
     padding: 3%;
 }
 
@@ -37,11 +38,12 @@
 }
 
 @media screen and (max-width :768px) {
-  
+
     .collapse-about {
         width: 100%;
     }
-    .collapse-housing{
+
+    .collapse-housing {
         width: 100%;
     }
 }

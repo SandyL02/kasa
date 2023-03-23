@@ -6,6 +6,7 @@
     line-height: 223px;
     background-position: center;
     margin: 48px 0;
+    
 }
 
 .banner-home {
@@ -48,8 +49,8 @@
     .filter-home {
         height: 150px;
     }
-    
-    .filter  {
+
+    .filter {
         width: 94%;
     }
 
@@ -73,10 +74,26 @@
     .text-banner {
         font-size: 24px;
     }
+
+    .filter-about {
+        height: 250px;
+    }
+
+    .banner-about {
+        height: 250px;
+    }
 }
 
-@media screen and (max-width: 385px) {
+@media screen and (max-width: 400px) {
     .text-banner {
         font-size: 20px;
+    }
+
+    .filter-about {
+        height: 220px;
+    }
+
+    .banner-about {
+        height: 220px;
     }
 }
