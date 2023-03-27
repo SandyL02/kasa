@@ -5,7 +5,8 @@ export default function Cards(props) {
   const { handleSetItem } = props;
   return (
     <div className="cards">
-      {data.map(item => (
+      {/*pour chaque item contenu sur le fichier JSON, créé une Card avec ses propriétés uniques*/ }
+      {data.map(item => ( 
         <Card
           key={item.id}
           item={item}

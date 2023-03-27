@@ -1,5 +1,6 @@
 body {
     width: calc(100% - 10em);
+    min-height: 100vh;
     margin: auto;
     padding-top: 40px;
 }

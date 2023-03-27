@@ -11,7 +11,7 @@ export default function Routing() {
   function handleSetItem(item) {
     setSelectedItem(item);
   }
-
+//handleSetItem est transmis d'enfant en enfant, dès que l'on a cliqué sur une Card, sa valeur change et prend l'item de la Card cliquée en props, ce qui permettra d'afficher la bonne page Housing pour chaque Card
   return (
     <Routes>
       <Route path="/" element={<Home handleSetItem={handleSetItem} />} />
